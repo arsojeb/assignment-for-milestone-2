@@ -72,10 +72,38 @@ nav{
 }
 .plant{
     margin-top:120px ;
+    margin-bottom: 49px;
 }
 .plants{
     display: flex;
     justify-content: center;
+}
+.card{
+    text-align: center;
+}
+.lily{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.usd{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btn-praimary{
+    background-color: #E95A08;
+    padding: 19px 80px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    margin-top: 30px;
+}
+.flower-list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
 }
 @media screen and (max-width:576px){
     nav{
@@ -118,5 +146,26 @@ nav{
     }
     .plants-info{
         font-size: 14px;
+    }
+    .flower-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px 20px;
+    }
+    .flower-list .card .card-image img{
+        width: 171px;
+        height: 197px;
+    }
+    .lily{
+        font-size: 16px;
+    }
+    .usd{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .btn-praimary{
+        padding: 19px 30px;
+        font-size: 16;
+        margin-top: 30px;
     }
 }
