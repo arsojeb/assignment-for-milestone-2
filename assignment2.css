@@ -105,6 +105,43 @@ nav{
     grid-template-columns: repeat(4, 1fr);
     gap: 30px 20px;
 }
+.card:hover{
+    background-color: rgb(219, 237, 237);
+    transform: scale(1.2);
+}
+.middle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 60px;
+}
+.lover-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.lover-description{
+    margin-left: 35px;
+    font-size: 22px;
+}
+.flower-lover-left img{
+    width: 540px;
+    height: 597px;
+}
+.plant-lover{
+    position: relative;
+    margin-top: 211px;
+}
+.batch{
+    position: absolute;  
+    left: 360px;
+    top: -130px;
+    z-index: 10;
+    width: 286px;
+    height: 286px;
+}
+.relative{
+    position: relative;
+}
 @media screen and (max-width:576px){
     nav{
         margin: 0 auto;
@@ -167,5 +204,35 @@ nav{
         padding: 19px 30px;
         font-size: 16;
         margin-top: 30px;
+    }
+    .card:hover{
+    background-color: 0;
+    transform: none;
+    }
+    .plant-lover{
+        margin-top: 41px;
+    }
+    .middle{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .batch{
+        display: none;
+    }
+    .flower-lover-left img{
+        width: 358px;
+        height: 396px;
+    }
+    .lover-title{
+        font-size: 24px;
+    }
+    .flower-lover-right{
+        margin-top: 18px;
+    }
+    .lover-title br{
+        display: none;
+    }
+    .lover-description{
+        font-size: 13px;
     }
 }
