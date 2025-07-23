@@ -1,0 +1,122 @@
+.inter-none {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.noto-serif-title {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.nav-right{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    font-weight:500;
+
+}
+.dark1{
+    color: #252432;
+}
+.dark2{
+    color: #8987A1;
+}
+.fresh-flower{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 120px;
+}
+.title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.yallow{
+    color: #E95A08;
+}
+.title-description{
+    font-size: 22px;
+}
+.fresh-flower-right img{
+    width: 570px;
+    height: 355px;
+}
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.plants-info{
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+}
+.plant{
+    margin-top:120px ;
+}
+.plants{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:576px){
+    nav{
+        margin: 0 auto;
+    }
+    nav img{
+        width:20%;
+    }
+    .hide{
+        display: none;
+    }
+    .fresh-flower{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+        margin-left: 0 auto;
+        margin-top: 28px;
+    }
+    .fresh-flower-left{
+        margin-top: 28px;
+    }
+    .title{
+        text-align: start;
+        font-size: 24px;
+    }
+    .title-description{
+        font-size: 14px;
+        text-align: start;
+    }
+    .fresh-flower-right img{
+        width: 394px;
+        height: 245px;
+    }
+    .plant{
+        margin-top: 65px;
+    }
+    .plants-title{
+        font-size: 20px;
+        align-items: center;
+    }
+    .plants-info{
+        font-size: 14px;
+    }
+}
