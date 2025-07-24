@@ -142,6 +142,157 @@ nav{
 .relative{
     position: relative;
 }
+.details{
+    text-align: center;
+}
+.none{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+/*for plant bloom*/
+.shop-plant {
+  position: relative;
+  width: 367px;
+  height: 201px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+
+.shop-plant::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/deal-bloom.png'); 
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  z-index: 0;
+}
+
+
+.shop-product-1 {
+  position: relative;  
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.shop-product-1 p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shop-product-1 a {
+  color: white;
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+/*for plant ana*/
+.shop-plant-2{
+  position: relative;
+  width: 367px;
+  height: 201px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+
+.shop-plant-2::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/deal-bloom.png'); 
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  z-index: 0;
+}
+
+
+.shop-product-2 {
+  position: relative;  
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.shop-product-2 p {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shop-product-2 a {
+  color: white;
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 16px;
+}
+.shop-plant-2{
+      margin-top: 24px;
+}
+/*for right plant off*/
+.plant-right{
+  position: relative;
+  width: 753px;
+  height: 424px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+
+.plant-right::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('assets/deal-bloom.png'); 
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  z-index: 0;
+}
+
+
+.shop-product-3 {
+  position: relative;  
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.shop-product-3 p {
+  font-size:40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shop-product-3 a {
+  color: white;
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 28px;
+}
+.shop-bar{
+    display: flex;
+    gap: 25px;
+    margin-top: 120px;
+}
 @media screen and (max-width:576px){
     nav{
         margin: 0 auto;
@@ -180,6 +331,9 @@ nav{
     .plants-title{
         font-size: 20px;
         align-items: center;
+    }
+    .none{
+        padding: 5%;
     }
     .plants-info{
         font-size: 14px;
@@ -235,4 +389,44 @@ nav{
     .lover-description{
         font-size: 13px;
     }
+    .details{
+        margin-top: 143px;
+    }
+    
+    .shop-plant {
+       width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+    .shop-plant-2{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+    .shop-bar{
+        flex-direction: column;
+    }
+    .plant-right{
+       width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+    .shop-product-1 p {
+        font-size: 20px;
+    }
+    .shop-product-2 p {
+        font-size: 20px;
+    }
+    .shop-product-3 p {
+        font-size:20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .shop-product-3 a {
+        color: white;
+        font-weight: 500;
+        text-decoration: underline;
+        font-size: 16px;
+    }
+
 }
