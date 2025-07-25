@@ -409,8 +409,8 @@ nav{
         text-align: start;
     }
     .fresh-flower-right img{
-        width: 394px;
-        height: 245px;
+        width: 100%;
+        height: 100%;
     }
     .plant{
         margin-top: 65px;
@@ -464,7 +464,7 @@ nav{
         display: none;
     }
     .flower-lover-left img{
-        width: 367px;
+        width: 100%;
         height: 396px;
     }
     .lover-title{
@@ -498,6 +498,7 @@ nav{
     .shop-bar{
         flex-direction: column;
         margin-top: 52px;
+        align-items: center;
     }
     .plant-right{
         width: 361px;
