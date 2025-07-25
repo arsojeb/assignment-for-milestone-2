@@ -344,7 +344,42 @@ nav{
   gap: 0;
   margin-top: 25px;
 }
+.footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+   gap: 110px;
+}
+.social-logo{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.footer-logo{
+    margin-bottom: 16px;
+}
+.footer-logo p{
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer-list-2 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 32px;
+}
 
+.footer-list-1 ul li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 32px;
+}
+.footer-1{
+    margin: 50px;
+    background-color: white;
+}
+.latest{
+    margin-top: 133px;
+}
 @media screen and (max-width:576px){
     nav{
         margin: 0 auto;
@@ -386,6 +421,9 @@ nav{
     }
     .none{
         padding: 5%;
+    }
+    .latest{
+        margin-top: 143px;
     }
     .plants-info{
         font-size: 14px;
@@ -440,6 +478,8 @@ nav{
     }
     .lover-description{
         font-size: 13px;
+        margin-left: 30px;
+        padding-right: 35px;
     }
     .details{
         margin-top: 143px;
@@ -457,6 +497,7 @@ nav{
     }
     .shop-bar{
         flex-direction: column;
+        margin-top: 52px;
     }
     .plant-right{
        width: 100%;
@@ -499,5 +540,18 @@ nav{
     }
     .join-details{
         margin-top: 40px;
+    }
+    .footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-1{
+        margin: 50px 20px;
+    }
+    .footer-logo img{
+        width: 70%;
+    }
+    .footer-logo p{
+        font-size: 16px;
     }
 }
