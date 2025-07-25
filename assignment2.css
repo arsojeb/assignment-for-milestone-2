@@ -484,7 +484,10 @@ nav{
     .details{
         margin-top: 143px;
     }
-    
+    .plant-right{
+        width: 361px;
+        height: 172px;
+    }
     .shop-plant {
        width: 100%;
         height: auto;
@@ -524,7 +527,7 @@ nav{
     .join-bunch{ 
         background-size:cover;
         background-position: center;
-        width:375px;
+        width:100%px;
         height: 276px;
     }
     .join-bunch p{
